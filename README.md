@@ -15,12 +15,18 @@ Then go to repo dirctory
 ```bash 
 $ cd mini-rag
 ```
-choose your environment 
+## Choose your environment 
 ```bash
 $ conda create -n mini-rag python=3.10 -y
 $ conda activate mini-rag
 ```
-Install the required  dependencies 
+## Install the required  dependencies 
 ``` bash
 $ pip install -r requirements.txt
 ```
+
+## Setup the environment variables
+
+``` bash
+$ cp .env.example .env
+``` 
