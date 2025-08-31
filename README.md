@@ -9,7 +9,7 @@ It demonstrates how agentic workflows can be combined with LLMs to provide accur
 Clone the repo and set up the environment:
 
 ```bash
-$ git clone https://github.com/your-username/mini-rag.git
+$ git clone https://github.com/EyadAmgad/mini-rag.git
 ```
 Then go to repo dirctory 
 ```bash 
@@ -34,4 +34,5 @@ $ cp .env.example .env
 ## Run FastAPI Server 
 ```bash
 $ uvicorn main:app --reload --host 0.0.0.0 --port 5000
+
 ```
